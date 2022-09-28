@@ -100,8 +100,6 @@ p {
   text-align: center; /* centers details/download in container */
   position:relative; left: 100px; bottom: 60px; /* length from other */
 }
-
-/* Section 1 | Banner */
 .banner-image {
   background-image: url(https://i.pinimg.com/originals/aa/e7/3b/aae73b1e1304cf793ea1c4f58441a379.png); /* image on container */
   background-position: left;
@@ -131,8 +129,6 @@ p {
   position:relative; left: 130px; bottom: 60px;
   
 }
-
-/* Section 2 | Banner */
 .banner-image1 {
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/ddw4eh3-e0ab2682-a822-4da9-b860-ce9cd4b8587b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZGR3NGVoMy1lMGFiMjY4Mi1hODIyLTRkYTktYjg2MC1jZTljZDRiODU4N2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Jyk51UDMLch0Tpi9Rs3mlna7mtYgAkuLYBkCcYNYaM0); /* image on container */
   background-position: left;
@@ -205,7 +201,7 @@ p {
 
 
 
-/* Section 4 | COD 2 Cheat //////////////////////////////////////////////*/
+/* Section 5 | COD 2 Cheat //////////////////////////////////////////////*/
 .container4 {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -222,6 +218,35 @@ p {
 }
 .banner-image4 {
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/d9sm9lw-55d75446-2ae2-44fc-8bc4-92b008ec220f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZDlzbTlsdy01NWQ3NTQ0Ni0yYWUyLTQ0ZmMtOGJjNC05MmIwMDhlYzIyMGYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0_PaY6EMBaK58TVwmp59sTAVQWPur0dY884bK076tSk); /* image on container */
+  background-position: left;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+/* /////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* Section 6 | MW2 Cheat //////////////////////////////////////////////*/
+.container5 {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 38px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* centers details/download in container */
+  position:relative; left: 225px; bottom: 59px;
+}
+.banner-image5 {
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/d9sm9r5-5df00ee7-1434-445f-a19c-99bc4261ac24.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZDlzbTlyNS01ZGYwMGVlNy0xNDM0LTQ0NWYtYTE5Yy05OWJjNDI2MWFjMjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MNXVp90ZuVLmQkrVzukWyZxZnS2ROmJ1a1ImMB8gbaQ); /* image on container */
   background-position: left;
   background-size: cover;
   height: 300px;
